@@ -4,7 +4,7 @@ import { ReactComponent as MobileLogo } from '../assets/mobiles2.svg'
 
 function SecondSection() {
   return (
-    <div className='w-full h-full pt-14 bg-darkerBlue flex px-14'>
+    <div className='w-full pt-14 bg-darkerBlue flex px-14'>
         <div className='w-1/2 flex flex-col justify-between'>
             <p className='text-2xl text-primaryBlack font-semibold'>
                 <p className='text-primaryOrange'>All you need</p> to know for moving to Switzerland <p className='text-primaryOrange'>in one place </p>
