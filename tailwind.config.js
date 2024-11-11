@@ -11,7 +11,7 @@ module.exports = {
       lightOrange: '#F06748',
       lighterOrange: '#FFCFC4',
       darkOrange: '#E64825',
-      primaryGrey: '#F06748',
+      primaryGrey: '#72788D',
       primaryBlack: '#3F465C',
       linkColor: '#3F465C',
       primaryWhite: '#FFFFFF',
