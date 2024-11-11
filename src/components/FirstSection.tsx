@@ -1,14 +1,14 @@
 import React from 'react'
-import { imageList } from './Languages'
+import { imageList } from './DataLists'
 import { FaApple } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
 import { ReactComponent as MobileLogo } from '../assets/mobiles.svg'
 
 function FirstSection() {
   return (
-    <div className='w-full h-full flex'>
+    <div className='w-full h-full flex bg-darkerBlue'>
       <div className='bg-primaryOrange w-1/2 h-full flex flex-col gap-10'>
-        <div className='pt-14 pl-14'>
+        <div className='pt-14 pl-14 space-y-7'>
           <div>
             <h1 className='text-7xl text-primaryWhite font-bold'>Greetly.ch</h1>
           </div>
@@ -22,10 +22,10 @@ function FirstSection() {
               Find solutions for all aspects of relocation based on your origin and occupation. Get consultation from experts.
             </p>
 
-            <div className='flex w-1/2 items-center space-x-2 bg-darkOrange p-2 rounded-2xl'>
+            <div className='flex w-[63%] items-center space-x-2 bg-darkOrange p-3 rounded-2xl'>
                 {imageList.map((url, index) => (
                   <div key={index}>
-                    <img src={url}  className='w-[20px] h-[20px] object-contain' alt={`Image ${index + 1}`}/>
+                    <img src={url}  className='w-6 h-5' alt={`Image ${index + 1}`}/>
                   </div>
                 ))}
                 <p className='text-lighterOrange text-xl'>Translated</p>
