@@ -6,7 +6,7 @@ function SecondSection() {
     return (
         <div className='w-full h-full pt-14 bg-darkerBlue flex flex-col md:flex-row px-14'>
         <div className='w-full md:w-1/2 flex flex-col justify-between'>  
-          <p className='text-2xl text-primaryBlack font-semibold'>
+          <p className='text-2xl text-primaryBlack font-semibold w-1/2'>
             <span className='text-primaryOrange'>All you need</span> to know for moving to Switzerland <span className='text-primaryOrange'>in one place</span>
           </p>
   
