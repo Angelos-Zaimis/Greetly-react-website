@@ -8,13 +8,13 @@ function FirstSection() {
   return (
     <div className='w-full h-full flex flex-col md:flex-row bg-darkerBlue'>
       <div className='bg-primaryOrange w-full md:w-1/2 h-full flex flex-col gap-10'>
-        <div className='pt-14 pl-14 space-y-7'>
+        <div className='flex flex-col items-center md:items-start md:pl-14 pt-4 space-y-7'>
           <div>
             <h1 className='text-7xl text-primaryWhite font-bold'>Greetly.ch</h1>
           </div>
 
-          <div className='space-y-5'>
-            <p className='text-lighterOrange text-xl w-full'>
+          <div className='flex flex-col items-center space-y-5 md:items-start '>
+            <p className='text-lighterOrange text-xl flex flex-col items-center md:items-start'>
               Your immigration consultant in <span className='text-2xl text-primaryYellow font-semibold'>Switzerland</span>
             </p>
 
@@ -22,7 +22,7 @@ function FirstSection() {
               Find solutions for all aspects of relocation based on your origin and occupation. Get consultation from experts.
             </p>
 
-            <div className='flex w-[63%] items-center space-x-2 bg-darkOrange p-3 rounded-2xl'>
+            <div className='flex w-[90%] md:w-[64%] items-center space-x-2 bg-darkOrange p-3 rounded-2xl'>
               {imageList.map((url, index) => (
                 <div key={index}>
                   <img src={url} className='w-6 h-5' alt={`Image ${index + 1}`} />
