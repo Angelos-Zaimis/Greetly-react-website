@@ -6,9 +6,9 @@ import { ReactComponent as MobileLogo } from '../assets/mobiles.svg'
 
 function FirstSection() {
   return (
-    <div className='w-full h-screen flex flex-col md:flex-row bg-darkerBlue'>
-      <div className='bg-primaryOrange w-full md:w-1/2 h-full flex flex-col gap-10'>
-        <div className='flex flex-col items-center md:items-start md:pl-14 pt-6  space-y-7'>
+    <div className='w-full h-full flex flex-col md:flex-row bg-darkerBlue'>
+      <div className='bg-primaryOrange w-full md:w-1/2 h-full flex flex-col gap-10 h-screen'>
+        <div className='flex flex-col items-center md:items-start md:pl-14  space-y-7'>
           <div>
             <h1 className='text-7xl text-primaryWhite font-bold'>Greetly.ch</h1>
           </div>
