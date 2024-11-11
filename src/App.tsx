@@ -1,18 +1,18 @@
 import React from 'react';
-import FirstSection from './components/FirstSection'
+import FirstSection from './components/FirstSection';
 import SecondSection from './components/SecondSection';
 
 function App() {
   return (
-    <div className="bg-primaryBlue">
-      <section className="h-screen flex justify-center items-center bg-primaryBlue text-white">
-        <FirstSection/>
+    <div className="bg-darkerBlue flex flex-col">
+      <section className="flex flex-col justify-center items-center bg-darkerBlue text-white mb-10">
+        <FirstSection />
       </section>
-      <section className="h-screen flex justify-center items-center bg-darkerBlue text-white">
-        <SecondSection/>
+      <section className="flex flex-col justify-center items-center bg-darkerBlue text-white mb-10">
+        <SecondSection />
       </section>
-  </div>
-  );  
+    </div>
+  );
 }
 
 export default App;
