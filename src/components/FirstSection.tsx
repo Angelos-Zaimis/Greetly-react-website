@@ -7,10 +7,10 @@ import { ReactComponent as MobileLogo } from '../assets/mobiles.svg'
 function FirstSection() {
   return (
     <div className='w-full h-full flex flex-col md:flex-row bg-darkerBlue'>
-      <div className='bg-primaryOrange w-full md:w-1/2 h-full flex flex-col gap-10 h-screen'>
+      <div className='bg-primaryOrange w-full md:w-1/2  flex flex-col gap-10 h-screen'>
         <div className='flex flex-col items-center md:items-start md:pl-14  space-y-7'>
           <div>
-            <h1 className='text-7xl text-primaryWhite font-bold'>Greetly.ch</h1>
+            <h1 className='text-7xl text-primaryWhite font-bold pt-14'>Greetly.ch</h1>
           </div>
 
           <div className='flex flex-col items-center space-y-5 md:items-start '>
