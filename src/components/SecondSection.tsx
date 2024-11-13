@@ -29,12 +29,6 @@ function SecondSection() {
               </div>
             ))}
           </div>
-  
-          <div className='space-y-2'>
-            <p className='text-xl font-semibold text-primaryBlack'>Save time.</p>
-            <p className='text-3xl font-semibold text-primaryBlack'>Get an <span className='text-primaryOrange'>Expert</span>'s advice.</p>
-            <p className='text-md font-semibold text-primaryBlack'>Get access to a variety of professionals that speak your native language, including consultants, doctors, lawyers, and more, who are ready to provide updated information and comprehensive services to meet your needs.</p>
-          </div>
         </div>
       </div>
     )
