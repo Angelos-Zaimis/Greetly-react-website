@@ -14,11 +14,11 @@ function FirstSection() {
           </div>
 
           <div className='flex flex-col items-center space-y-5 md:items-start '>
-            <p className='text-lighterOrange text-xl flex flex-col items-center md:items-start'>
+            <p className='text-lighterOrange text-xl flex flex-col items-start'>
               Your immigration consultant in <span className='text-2xl text-primaryYellow font-semibold'>Switzerland</span>
             </p>
 
-            <p className='text-lighterOrange text-xl w-[60%]'>
+            <p className='text-lighterOrange text-xl w-[70%]'>
               Find solutions for all aspects of relocation based on your origin and occupation. Get consultation from experts.
             </p>
 
